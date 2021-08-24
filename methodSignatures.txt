@@ -1,0 +1,30 @@
+                      
+					Hibernate Components 
+	**Configuration<<class>>**
+1)Configuration configure();
+2)Configuration addClass(Class PersistentClass);
+3)SessionFactory buildSessionFactory();
+
+
+    **SessionFactory<<Interface>>**
+1)Session openSession();
+2)boolean isClosed();
+
+
+    **session <<interface>>**
+1)Transaction beginTransaction();
+2)Transaction getTransaction();
+3)void close();
+4)void update(Object object);
+5)Serializable save(Object object);
+6)void delete(Object object);
+7)void load(Object object Serializable id);
+8)Query createQuery(String queryString);
+9)NativeQuery createSQLQuery(String queryString);
+10)Cretiria createCreteria(Class PersistentClass);
+11)Object get(String entityName Serializable id);
+
+
+**Trasaction**
+1)void commit();
+2)void rollback();
