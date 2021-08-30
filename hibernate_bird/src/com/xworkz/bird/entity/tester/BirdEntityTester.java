@@ -1,8 +1,8 @@
 package com.xworkz.bird.entity.tester;
 
+import com.xworkz.bird.dao.BirdDAO;
+import com.xworkz.bird.dao.BirdDAOImpl;
 import com.xworkz.bird.entity.BirdEntity;
-import com.xworkz.bird.entity.dao.BirdDAO;
-import com.xworkz.bird.entity.dao.BirdDAOImpl;
 
 public class BirdEntityTester {
 

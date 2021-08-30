@@ -1,4 +1,4 @@
-package com.xworkz.bird.entity.dao;
+package com.xworkz.bird.dao;
 
 import com.xworkz.bird.entity.BirdEntity;
 

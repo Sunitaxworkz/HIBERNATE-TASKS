@@ -1,4 +1,4 @@
-package com.xworkz.bird.entity.dao;
+package com.xworkz.bird.dao;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
