@@ -7,6 +7,7 @@
 		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/sunita</property>
 		<property name="hibernate.connection.username">root</property>
-		<property name="hibernate.connection.password">snm@1996</property>			
+		<property name="hibernate.connection.password">snm@1996</property>		
+		<mapping class="com.xworkz.bird.entity.BirdEntity"/>	
 	</session-factory>
 </hibernate-configuration>
